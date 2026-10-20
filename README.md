@@ -4,9 +4,15 @@ A single-page web app that converts URLs containing Japanese (or other non-ASCII
 
 Everything runs in the browser. There is no build step, no server, and no data leaves your machine.
 
+## Live demo
+
+https://ytmknd.github.io/UrlPercentCodec/
+
+Hosted on GitHub Pages from https://github.com/ytmknd/UrlPercentCodec.
+
 ## Usage
 
-Open `index.html` in a browser.
+Open the live demo above, or open `index.html` locally in a browser.
 
 1. Paste a URL or text into the **Input** box.
 2. Click **Encode** to convert non-ASCII characters to `%XX` sequences, or **Decode** to convert `%XX` sequences back to readable text.
